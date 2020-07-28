@@ -38,7 +38,7 @@ Raspberry pi with power supply, servo motor and cereal dispenser. The servo moto
 * Time – how long to run the entire process? .*Must be less than a ten seconds fully - actual time 9 seconds including image upload and send*
 * How to allow for a reply from the user to call the rotation function code and rotate the motor remotely through the network? *SSH to trigger code from either an app or SMS or 'Call' function in Subprocess - used the later*
 * Can pet access treats safety after treats are dispensed? *Added ramp to slide treats out*
-*How to upload and send the pics from the picamera *used Cloudinary api*. 
+* How to upload and send the pics from the picamera *used Cloudinary api*. 
 
 **Not part of MVP but nice to have**
 
@@ -61,13 +61,13 @@ Raspberry pi with power supply, servo motor and cereal dispenser. The servo moto
 *Image Hosting Platform – Cloudinary – I already had an account.
 
 ### Testing Connections
-1. Test that the servo motor control horn fits nicely into the handle of the cereal dispenser - had to remove a plastic bump on the handle and used the four prong rotation piece. Drilled it in and used the screws provided with the motor to secure it. Ran a servo motor software program to test motor rotation.  Video here:
+1. Test that the servo motor control horn fits nicely into the handle of the cereal dispenser - had to remove a plastic bump on the handle and used the four prong rotation piece. Drilled it in and used the screws provided with the motor to secure it. Ran a servo motor software program to test motor rotation.  
 2. Test that the Twilio App can send a message to the user - set up a phone number and ran their test code to my phone number and it worked.
 3. Test that the Twilio App can receive messages from the user - this was more complex and involved setting up an https webhook hosted on Ngrok to forward sms replies. Based on the sms content the dispenser will be activated.  Flask app is hosted on port 5000.
 4. Test that cat can get at treats - I needed to make a ramp out of paper so the treats could slide out and he could get them. I also had to secure the device to the desk using a desk clamp and duct tape so that the cat couldn't knock it over. Also secured the picamera.
 5. Test that the picamera works and can snap and save an image to the local drive. 
 6. Test Cloudinary to save that image online so that it can be sent along with the reply text message to the user as an MMS. Make sure all caching and versioning is removed.
-7. Test config,ini file and config parser can manage all api keys.
+7. Test config.ini file and config parser can manage all api keys.
 
 ## Wireframes
 
