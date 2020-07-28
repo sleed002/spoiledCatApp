@@ -103,6 +103,6 @@ Raspberry pi with power supply, servo motor and cereal dispenser. The servo moto
 
 ![Cat getting pic taken](https://i.ibb.co/92mYFJx/Image-from-i-OS-1.jpg)
 
-**Screenshot of what text messages to and from the Twilio account look like if treats are dispensed or not**
+**Screenshot of what text messages and photos to and from the Twilio account**
 
 ![Twilio](https://i.ibb.co/CmLGFw7/IMG-9578.jpg)
