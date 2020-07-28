@@ -20,17 +20,21 @@ def incoming_sms():
         # execute program
         try:
             call(["python", "dropTreats.py"])
-            msg.body(" Treats deployed successfully.")
+            msg.body("Treats deployed successfully.   Would you like to give Milo more treats? Yes/No")
+            msg.media("https://res.cloudinary.com/fotobooth/image/upload/milo.jpg")
         except:
-            print("  Treats did not deploy")
+            print("Treats did not deploy. Try again? Yes/No")
             msg.body("Deploy failed.")
-
+    elif body == 'pic' or body == "photo":
+        call(["python", "runCamera.py"])
+        msg.body("Here is a picture of Milo. Would you like to give Milo treats? Yes/No")
+        msg.media("https://res.cloudinary.com/fotobooth/image/upload/milo.jpg")
     elif body == 'no':
         msg.body("Milo is sad but understands.")
     else:
-        msg.body("Welcome to Milo's treat dispenser app. Text 'treats' to give Milo treats or reply 'yes/no'")
+        msg.body("Welcome to Milo's treat dispenser app. Text 'Treats' to give Milo treats. Text 'Pic' or 'Photo' to take a picture")
 
-    return str(resp)
+    return str(resp) 
 
 if __name__ == "__main__":
     app.run(debug=True)
