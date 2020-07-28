@@ -38,7 +38,7 @@ Raspberry pi with power supply, servo motor and cereal dispenser. The servo moto
 * Time – how long to run the entire process? .*Must be less than a ten seconds fully - actual time 9 seconds including image upload and send*
 * How to allow for a reply from the user to call the rotation function code and rotate the motor remotely through the network? *SSH to trigger code from either an app or SMS or 'Call' function in Subprocess - used the later*
 * Can pet access treats safety after treats are dispensed? *Added ramp to slide treats out*
-* How to upload and send the pics from the picamera *used Cloudinary api*. 
+* How to upload and send the pics from the picamera? *used Cloudinary api*. 
 
 **Not part of MVP but nice to have**
 
