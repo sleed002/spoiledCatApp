@@ -75,7 +75,7 @@ Raspberry pi with power supply, servo motor and cereal dispenser. The servo moto
 
 ![Software Wireframe](https://i.ibb.co/4mx83Hn/treat-dispenser-software-design-d-sleeper.jpg)
 
-## Full Video of the App in action! Click the link below the still image.
+## Full Video of the App in action! Click the image to watch.
 
 [![Full Video of Treat App](https://i.ibb.co/x6QbsfR/Image-from-i-OS.png)](https://www.youtube.com/watch?v=fRtD-DqXuGs&feature=youtu.be)
 
