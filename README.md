@@ -77,7 +77,7 @@ Raspberry pi with power supply, servo motor and cereal dispenser. The servo moto
 
 ## Full Video of the App in action! Click the link below the still image.
 
-![Full Video of Treat App](https://i.ibb.co/x6QbsfR/Image-from-i-OS.png)](https://streamable.com/phfr3z)
+[![Full Video of Treat App](https://i.ibb.co/x6QbsfR/Image-from-i-OS.png)](https://streamable.com/phfr3z)
 
 ## Screenshots of Making the Project
 
